@@ -3,31 +3,64 @@
 
 ''' 
 The goal is to make the data more usable by
-    1. Removing duplicates
-    2. Removing unneccesary results from search
-    3. Splitting the data set into the corpus and the test sets
+    1. Makign sure each file is unique
+    2. removing comments and unnecesary components
+    3. tokenizing the data
+    4. Splitting the data set into the corpus and the test sets
     
 '''
 
-
 import json
+import re
+import csv
+from github import Github
+from github.GithubException import GithubException
 
-#Building a set of names to ensure no duplication occurs
-unique_names = set()
+#git = Github("")
+'''
+def mining():
+    with open('names.csv','r',newline='') as names,open(f"Corpus/processed_raw.jsonl", 'w', encoding='utf-8') as jsonl:
+        reader = csv.reader(names)
+        for repo_name in reader:
+            name = repo_name[0]
+            try:
+                repo = git.get_repo(name)
+                file = get_files(repo,"")
+                decoded = file.decoded_content.decode('utf-8')
+                data = {"name": name, "content":decoded}
+                jsonl.write(json.dumps(data) + '\n')
+                print(f"Added {name} to file")
+            except GithubException as e:
+                print(e)
 
-#Function to remove duplicates and unnecesary information, leaving only name and content from a single version from each project
-def preprocessing(input_file, output_file):
-    with open(input_file, 'r', encoding='utf-8') as p_in, open(output_file, 'w', encoding='utf-8') as p_out:
-        for obj in p_in:#Grabbing each json element individually from the jsonl file
+
+def get_files(repo, path,):
+    try:
+        content = repo.get_contents(path)
+        for file in content:
+            if file.type == 'dir':
+                get_files(repo,file.path)
+            elif file.type == 'file' and file.path.endswith('.java') and 'test' not in file.path.lower():
+                return file
+    except GithubException as e:
+        print(e)
+
+mining()
+'''
+
+def remove_junk(input_file, output_file):
+    with open(input_file, 'r') as p_in, open(output_file, 'w') as p_out:
+        for obj in p_in:
             json_dict = json.loads(obj)
-            name = json_dict['repo']['name']
-            if name not in unique_names:#checking to ensure we don't already have this project
-                unique_names.add(name)
-                p_out.write(json.dumps({'name': name,'content': json_dict['content']}))
-        #print(unique_names)
-'''My original corpus size was 7GB
-after running through this process,
-the output file is 90MG'''
+            name = json_dict['name']
+            content = json_dict['content']
 
-preprocessing('Corpus/Original.jsonl','Corpus/processedv1.json')
+            content = content.strip()
+            content = re.sub(r'\s+', ' ', content)
+            content = re.sub(r'//.*', '', content)
+            content = re.sub(r'/\*[\s\S]*?\*/', '', content)
+            
+            data = {'name': name, 'content': content}
+            p_out.write(json.dumps(data) + '\n')
 
+remove_junk('Corpus/processed_raw.jsonl','Corpus/processed_v2.jsonl')
