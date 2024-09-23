@@ -1,0 +1,1 @@
+public class Trigger { String namespace ; Set elementNames ; Trigger ( String namespace , Set elementNames ) { this . elementNames = elementNames ; this . namespace = namespace ; } } 

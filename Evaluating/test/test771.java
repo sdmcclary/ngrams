@@ -1,0 +1,1 @@
+public abstract class HttpResponseWriterBase implements HttpResponseWriter { public FullHttpResponse createHttpResponse ( Response response ) { return new DefaultFullHttpResponse ( HttpVersion . HTTP_1_1 , response . getResponseStatus ( ) ) ; } } 

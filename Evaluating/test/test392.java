@@ -1,0 +1,1 @@
+public interface XMLReaderCreator { XMLReader createXMLReader ( ) throws SAXException ; } 

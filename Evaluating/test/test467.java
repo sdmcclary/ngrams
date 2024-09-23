@@ -1,0 +1,1 @@
+public class Int extends AbstractInt { public static final Int THE_INSTANCE = new Int ( ) ; private Int ( ) { super ( ) ; } @ Override public void checkValid ( CharSequence literal ) throws DatatypeException { checkInt ( literal , 0 ) ; } @ Override public String getName ( ) { return "integer" ; } } 

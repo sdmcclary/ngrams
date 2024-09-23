@@ -1,0 +1,1 @@
+public class MnsSchemaReceiverFactory implements SchemaReceiverFactory { public SchemaReceiver createSchemaReceiver ( String namespaceUri , PropertyMap properties ) { if ( ! SchemaImpl . MNS_URI . equals ( namespaceUri ) ) return null ; return new SchemaReceiverImpl ( properties ) ; } public Option getOption ( String uri ) { return null ; } } 

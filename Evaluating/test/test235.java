@@ -1,0 +1,1 @@
+public interface Schema { Validator createValidator ( PropertyMap properties ) ; PropertyMap getProperties ( ) ; } 

@@ -1,0 +1,1 @@
+public interface PatternFuture { Pattern getPattern ( boolean isAttributesPattern ) throws IllegalSchemaException , SAXException , IOException ; } 

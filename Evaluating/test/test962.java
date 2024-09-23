@@ -1,0 +1,1 @@
+public interface PlotRemovalListener { void plotWasRemoved ( Point plot ) ; } 

@@ -1,0 +1,1 @@
+@ Local public interface PricingService { Price discountedPrice ( Product product , Account account ) ; } 

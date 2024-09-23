@@ -1,0 +1,1 @@
+public class Iri extends IriRef { public static final Iri THE_INSTANCE = new Iri ( ) ; protected Iri ( ) { super ( ) ; } protected boolean isAbsolute ( ) { return true ; } @ Override public String getName ( ) { return "absolute IRI" ; } } 

@@ -1,0 +1,1 @@
+public interface MatchablePattern { Matcher createMatcher ( ) ; } 

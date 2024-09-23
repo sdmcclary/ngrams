@@ -1,0 +1,1 @@
+public class ExternalEntityIdentifier extends ExternalIdentifier { private final String entityName ; public ExternalEntityIdentifier ( String href , String base , String publicId , String entityName ) { super ( href , base , publicId ) ; this . entityName = entityName ; } public String getEntityName ( ) { return entityName ; } } 

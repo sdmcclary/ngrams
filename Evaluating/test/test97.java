@@ -1,0 +1,1 @@
+public class CommentListImpl implements CommentList < Locator > { public void addComment ( String value , Locator loc ) throws BuildException { } } 

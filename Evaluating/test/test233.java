@@ -1,0 +1,1 @@
+public class OptionArgumentPresenceException extends OptionArgumentException { public OptionArgumentPresenceException ( ) { } } 

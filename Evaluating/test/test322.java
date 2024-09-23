@@ -1,0 +1,1 @@
+interface ErrorContext { void error ( Locator locator , String key ) ; void error ( Locator locator , String key , String arg ) ; Locator saveLocator ( ) ; } 

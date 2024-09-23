@@ -1,0 +1,1 @@
+public interface Rewindable { void willNotRewind ( ) ; void rewind ( ) ; boolean canRewind ( ) ; } 

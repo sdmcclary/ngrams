@@ -1,0 +1,1 @@
+public interface SchemaReceiver { SchemaFuture installHandlers ( XMLReader xr ) throws SAXException ; } 

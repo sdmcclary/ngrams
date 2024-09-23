@@ -1,0 +1,1 @@
+public class CommonsLangPrinter implements DocumentProcessor { public Document processDocument ( Document doc ) throws DocumentProcessorException { String repr = ToStringBuilder . reflectionToString ( doc ) ; doc . setPrintRepresentation ( repr ) ; return doc ; } } 

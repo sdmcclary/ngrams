@@ -1,0 +1,1 @@
+public class IntNonNegative extends AbstractInt { public static final IntNonNegative THE_INSTANCE = new IntNonNegative ( ) ; private IntNonNegative ( ) { super ( ) ; } @ Override public void checkValid ( CharSequence literal ) throws DatatypeException { checkIntNonNegative ( literal , 0 ) ; } @ Override public String getName ( ) { return "non-negative integer" ; } } 

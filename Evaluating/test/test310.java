@@ -1,0 +1,1 @@
+abstract class ResultAction extends Action { ResultAction ( ModeUsage modeUsage ) { super ( modeUsage ) ; } abstract void perform ( ContentHandler handler , SectionState state ) throws SAXException ; abstract ResultAction changeCurrentMode ( Mode mode ) ; } 

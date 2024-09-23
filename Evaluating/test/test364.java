@@ -1,0 +1,1 @@
+public interface TransformerFactoryInitializer { void initTransformerFactory ( TransformerFactory factory ) ; } 

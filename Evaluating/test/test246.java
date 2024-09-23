@@ -1,0 +1,1 @@
+public abstract class ReparseException extends SAXException { public ReparseException ( ) { super ( ( Exception ) null ) ; } public abstract Schema reparse ( SAXSource source ) throws IncorrectSchemaException , SAXException , IOException ; } 

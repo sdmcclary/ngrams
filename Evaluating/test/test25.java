@@ -1,0 +1,1 @@
+public interface Regex { boolean matches ( String str ) ; } 

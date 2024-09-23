@@ -1,0 +1,1 @@
+public class VoidValue { public static VoidValue VOID = new VoidValue ( ) ; private VoidValue ( ) { } } 

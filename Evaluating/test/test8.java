@@ -1,0 +1,1 @@
+interface Measure { int getLength ( Object obj ) ; } 

@@ -1,0 +1,1 @@
+interface Constraint { void activate ( PatternManager pm ) ; } 

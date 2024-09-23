@@ -1,0 +1,1 @@
+public class IdValidator extends IdContentHandler implements Validator { public IdValidator ( IdTypeMap idTypeMap , ErrorHandler eh ) { super ( idTypeMap , eh ) ; } public ContentHandler getContentHandler ( ) { return this ; } public DTDHandler getDTDHandler ( ) { return null ; } public void reset ( ) { super . reset ( ) ; } } 

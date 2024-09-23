@@ -1,0 +1,1 @@
+class NotAllowedPattern extends Pattern { NotAllowedPattern ( ) { super ( false , EMPTY_CONTENT_TYPE , NOT_ALLOWED_HASH_CODE ) ; } boolean isNotAllowed ( ) { return true ; } boolean samePattern ( Pattern other ) { return other . getClass ( ) == this . getClass ( ) ; } < T > T apply ( PatternFunction < T > f ) { return f . caseNotAllowed ( this ) ; } } 

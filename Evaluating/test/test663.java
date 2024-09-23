@@ -1,0 +1,1 @@
+public interface MessageHandler { int handleMessage ( Message msg ) ; } 

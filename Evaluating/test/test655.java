@@ -1,0 +1,1 @@
+public interface RequestHandler { void handleRequest ( HttpRequest req ) ; } 

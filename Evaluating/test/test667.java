@@ -1,0 +1,1 @@
+public class AndroidHttpTransport extends HttpTransportSE { public AndroidHttpTransport ( String url ) { super ( url ) ; } @ Override protected ServiceConnection getServiceConnection ( ) throws IOException { return new AndroidServiceConnection ( super . url ) ; } } 

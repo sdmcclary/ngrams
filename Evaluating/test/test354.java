@@ -1,0 +1,1 @@
+public class RngValidator extends PatternValidator implements Validator { public RngValidator ( Pattern pattern , ValidatorPatternBuilder builder , ErrorHandler eh ) { super ( pattern , builder , eh ) ; } public ContentHandler getContentHandler ( ) { return this ; } public DTDHandler getDTDHandler ( ) { return this ; } public void reset ( ) { super . reset ( ) ; } } 

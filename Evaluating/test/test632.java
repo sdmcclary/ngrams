@@ -1,0 +1,1 @@
+public class Script extends CdoCdcPair { public static final Script THE_INSTANCE = new Script ( ) ; protected Script ( ) { super ( ) ; } @ Override public void checkValid ( CharSequence literal ) throws DatatypeException { super . checkValid ( literal ) ; return ; } @ Override public String getName ( ) { return "embedded script content" ; } } 

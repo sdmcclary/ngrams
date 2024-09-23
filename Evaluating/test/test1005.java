@@ -1,0 +1,1 @@
+public class TouchDocumentProcessor implements DocumentProcessor { public Document processDocument ( Document doc ) throws DocumentProcessorException { doc . setModTime ( Calendar . getInstance ( ) ) ; return doc ; } } 

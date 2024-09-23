@@ -1,0 +1,1 @@
+public final class Idref extends Id { public static final Idref THE_INSTANCE = new Idref ( ) ; private Idref ( ) { super ( ) ; } @ Override public String getName ( ) { return "id reference" ; } } 

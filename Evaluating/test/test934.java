@@ -1,0 +1,1 @@
+public interface Authenticator { boolean isValidLogin ( String username , String password ) ; } 

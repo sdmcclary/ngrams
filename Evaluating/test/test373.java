@@ -1,0 +1,1 @@
+public class XsdSchemaReaderFactory implements SchemaReaderFactory { public XsdSchemaReaderFactory ( ) { new XMLGrammarPreparser ( ) ; } public SchemaReader createSchemaReader ( String namespaceUri ) { if ( WellKnownNamespaces . XML_SCHEMA . equals ( namespaceUri ) ) return new SchemaReaderImpl ( ) ; return null ; } public Option getOption ( String uri ) { return null ; } } 

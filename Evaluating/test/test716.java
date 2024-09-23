@@ -1,0 +1,1 @@
+public class SMSBarrage extends Application { private static final String TAG = "SMSBarrage" ; @ Override public void onCreate ( ) { PreferenceManager . setDefaultValues ( this , R . xml . preferences , false ) ; } } 

@@ -1,0 +1,1 @@
+public class NoopDocumentProcessor implements DocumentProcessor { public Document processDocument ( Document doc ) throws DocumentProcessorException { return doc ; } } 

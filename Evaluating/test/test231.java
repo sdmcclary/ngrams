@@ -1,0 +1,1 @@
+public class OptionArgumentException extends Exception { public OptionArgumentException ( ) { } public OptionArgumentException ( String message ) { super ( message ) ; } } 

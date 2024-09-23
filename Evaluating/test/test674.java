@@ -1,0 +1,1 @@
+public interface KvmSerializable { Object getProperty ( int index ) ; int getPropertyCount ( ) ; void setProperty ( int index , Object value ) ; void getPropertyInfo ( int index , Hashtable properties , PropertyInfo info ) ; } 

@@ -1,0 +1,1 @@
+public interface SchemaReaderFactory { public SchemaReader createSchemaReader ( String namespaceUri ) ; Option getOption ( String uri ) ; } 

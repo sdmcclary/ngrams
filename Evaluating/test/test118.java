@@ -1,0 +1,1 @@
+public interface IdTypeMap { int getIdType ( Name elementName , Name attributeName ) ; } 

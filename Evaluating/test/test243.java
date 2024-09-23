@@ -1,0 +1,1 @@
+public interface Validator { ContentHandler getContentHandler ( ) ; DTDHandler getDTDHandler ( ) ; void reset ( ) ; } 

@@ -1,0 +1,1 @@
+public class DraconianErrorHandler implements ErrorHandler { public void warning ( SAXParseException e ) throws SAXException { } public void error ( SAXParseException e ) throws SAXException { throw e ; } public void fatalError ( SAXParseException e ) throws SAXException { throw e ; } } 

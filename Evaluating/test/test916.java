@@ -1,0 +1,1 @@
+@ Local public interface SearchService { public String [ ] search ( String [ ] keywords ) ; } 

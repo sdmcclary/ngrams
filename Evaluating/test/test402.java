@@ -1,0 +1,1 @@
+public interface DatatypeLibrary { DatatypeBuilder createDatatypeBuilder ( String baseTypeLocalName ) throws DatatypeException ; Datatype createDatatype ( String typeLocalName ) throws DatatypeException ; } 

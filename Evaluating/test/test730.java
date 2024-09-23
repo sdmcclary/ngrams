@@ -1,0 +1,1 @@
+public interface Enablable { boolean isEnabled ( ) ; void setEnabled ( boolean enabled ) ; } 

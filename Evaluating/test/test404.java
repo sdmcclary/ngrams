@@ -1,0 +1,1 @@
+public interface DatatypeStreamingValidator { void addCharacters ( char [ ] buf , int start , int len ) ; boolean isValid ( ) ; void checkValid ( ) throws DatatypeException ; } 

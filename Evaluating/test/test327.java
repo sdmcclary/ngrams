@@ -1,0 +1,1 @@
+interface NamespaceContext { String getNamespaceUri ( String string ) ; String defaultPrefix ( ) ; } 

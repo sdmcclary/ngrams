@@ -1,0 +1,1 @@
+public interface Marshal { public Object readInstance ( XmlPullParser parser , String namespace , String name , PropertyInfo expected ) throws IOException , XmlPullParserException ; public void writeInstance ( XmlSerializer writer , Object instance ) throws IOException ; public void register ( SoapSerializationEnvelope envelope ) ; } 

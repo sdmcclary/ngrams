@@ -1,0 +1,1 @@
+public class EmailAddressList extends AbstractDatatype { public static final EmailAddressList THE_INSTANCE = new EmailAddressList ( ) ; public EmailAddressList ( ) { super ( ) ; } @ Override public void checkValid ( CharSequence literal ) throws DatatypeException { } @ Override public String getName ( ) { return "email address list" ; } } 

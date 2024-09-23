@@ -1,0 +1,1 @@
+public class FlagPropertyId extends PropertyId < Flag > { public FlagPropertyId ( String name ) { super ( name , Flag . class ) ; } public void add ( PropertyMapBuilder builder ) { builder . put ( this , Flag . PRESENT ) ; } } 

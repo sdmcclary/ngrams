@@ -1,0 +1,1 @@
+public class SAXInput extends Input { private XMLReader reader ; public XMLReader getXMLReader ( ) { return reader ; } public void setXMLReader ( XMLReader reader ) { this . reader = reader ; } } 

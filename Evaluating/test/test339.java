@@ -1,0 +1,1 @@
+abstract class SelectedValueHandler { abstract void select ( ErrorContext ec , Locator locator , Object value , String representation ) ; void selectComplete ( ErrorContext ec ) { } } 

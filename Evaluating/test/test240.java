@@ -1,0 +1,1 @@
+public class StringPropertyId extends PropertyId < String > { public StringPropertyId ( String name ) { super ( name , String . class ) ; } } 

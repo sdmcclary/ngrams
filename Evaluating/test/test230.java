@@ -1,0 +1,1 @@
+public interface Option { PropertyId < ? > getPropertyId ( ) ; Object valueOf ( String arg ) throws OptionArgumentException ; Object combine ( Object [ ] values ) ; } 

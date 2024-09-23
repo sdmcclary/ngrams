@@ -1,0 +1,1 @@
+public class Flag { private Flag ( ) { } public static final Flag PRESENT = new Flag ( ) ; } 

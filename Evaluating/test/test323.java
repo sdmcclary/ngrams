@@ -1,0 +1,1 @@
+class InvalidPatternException extends Exception { } 

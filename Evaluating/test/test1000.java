@@ -1,0 +1,1 @@
+public class CurrencyDefense implements DocumentProcessor { public Document processDocument ( Document doc ) throws DocumentProcessorException { List < Item > valid = new ArrayList < Item > ( ) ; for ( Item item : doc . getItems ( ) ) { if ( ! doc . getCur ( ) . equals ( item . getCur ( ) ) ) { continue ; } valid . add ( item ) ; } doc . setItems ( valid ) ; return doc ; } } 

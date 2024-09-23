@@ -1,0 +1,1 @@
+public interface RegexEngine { Regex compile ( String str ) throws RegexSyntaxException ; } 

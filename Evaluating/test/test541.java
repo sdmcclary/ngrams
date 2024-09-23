@@ -1,0 +1,1 @@
+public class IntPositive extends AbstractInt { public static final IntPositive THE_INSTANCE = new IntPositive ( ) ; private IntPositive ( ) { super ( ) ; } @ Override public void checkValid ( CharSequence literal ) throws DatatypeException { checkIntPositive ( literal , 0 ) ; } @ Override public String getName ( ) { return "positive integer" ; } } 

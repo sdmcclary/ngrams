@@ -1,0 +1,1 @@
+public class Constants { private Constants ( ) { } static public final String RELAXNG_COMPACT_URI = "http://www.iana.org/assignments/media-types/application/relax-ng-compact-syntax" ; static public final String RELAXNG_XML_URI = XMLConstants . RELAXNG_NS_URI ; } 

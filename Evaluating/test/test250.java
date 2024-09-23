@@ -1,0 +1,1 @@
+public interface SchemaFuture { Schema getSchema ( ) throws IncorrectSchemaException , SAXException , IOException ; RuntimeException unwrapException ( RuntimeException e ) throws SAXException , IOException , IncorrectSchemaException ; } 

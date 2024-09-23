@@ -1,0 +1,1 @@
+public class XalanSchemaReaderFactory extends SchematronSchemaReaderFactory { public SAXTransformerFactory newTransformerFactory ( ) { return new TransformerFactoryImpl ( ) ; } public void initTransformerFactory ( TransformerFactory factory ) { factory . setAttribute ( TransformerFactoryImpl . FEATURE_SOURCE_LOCATION , Boolean . TRUE ) ; } } 

@@ -1,0 +1,1 @@
+class FwdRef { FwdRef next ; Object obj ; int index ; } 

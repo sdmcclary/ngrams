@@ -1,0 +1,1 @@
+public interface PlotMapCanvas { void plot ( Point point ) ; void clear ( ) ; void addRemoveListener ( PointEventListener listener ) ; } 

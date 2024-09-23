@@ -1,0 +1,1 @@
+public interface CircuitBreakerListener { void attemptReset ( ) ; void reset ( ) ; void tripped ( ) ; } 

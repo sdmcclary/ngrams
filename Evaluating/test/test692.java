@@ -1,0 +1,1 @@
+public class AxisService { public CustomObject getObject ( String value ) { CustomObject ret = new CustomObject ( ) ; ret . setValue ( "Hello World " + value ) ; return ret ; } } 

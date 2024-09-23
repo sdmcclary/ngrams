@@ -1,0 +1,1 @@
+public interface DatatypeBuilder { void addParameter ( String name , String strValue , ValidationContext context ) throws DatatypeException ; Datatype createDatatype ( ) throws DatatypeException ; } 

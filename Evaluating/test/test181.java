@@ -1,0 +1,1 @@
+public class AbstractResolver implements Resolver { public void resolve ( Identifier id , Input input ) throws IOException , ResolverException { } public void open ( Input input ) throws IOException , ResolverException { } } 

@@ -1,0 +1,1 @@
+public interface DatatypeLibraryFactory { DatatypeLibrary createDatatypeLibrary ( String namespaceURI ) ; } 

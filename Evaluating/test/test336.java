@@ -1,0 +1,1 @@
+class SchemaImpl extends AbstractSchema { private final Constraint constraint ; SchemaImpl ( PropertyMap properties , Constraint constraint ) { super ( properties ) ; this . constraint = constraint ; } public Validator createValidator ( PropertyMap properties ) { return new ValidatorImpl ( constraint , properties ) ; } } 

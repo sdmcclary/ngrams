@@ -1,0 +1,1 @@
+public class AndroidServiceConnection extends ServiceConnectionSE { public AndroidServiceConnection ( String url ) throws IOException { super ( url ) ; } } 

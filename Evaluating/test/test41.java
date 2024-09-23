@@ -1,0 +1,1 @@
+public interface MatchContext extends ValidationContext { String getPrefix ( String namespaceURI ) ; } 

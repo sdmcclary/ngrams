@@ -1,0 +1,1 @@
+public class SchemaReaderLoaderSchemaReceiverFactory extends SchemaReaderFactorySchemaReceiverFactory { public SchemaReaderLoaderSchemaReceiverFactory ( ) { super ( new SchemaReaderLoader ( ) ) ; } } 

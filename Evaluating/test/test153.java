@@ -1,0 +1,1 @@
+class RequiredAttributesFunction extends RequiredElementsOrAttributesFunction { public Set < Name > caseAttribute ( AttributePattern p ) { return caseNamed ( p . getNameClass ( ) ) ; } public Set < Name > caseGroup ( GroupPattern p ) { return union ( p ) ; } } 

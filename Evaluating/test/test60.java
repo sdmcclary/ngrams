@@ -1,0 +1,1 @@
+public interface ParsedPatternFuture < P > { P getParsedPattern ( ) throws IllegalSchemaException ; } 

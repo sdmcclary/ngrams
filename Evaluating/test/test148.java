@@ -1,0 +1,1 @@
+class PossibleAttributeNamesFunction extends PossibleNamesFunction { public VoidValue caseAttribute ( AttributePattern p ) { add ( p . getNameClass ( ) ) ; return VoidValue . VOID ; } public VoidValue caseGroup ( GroupPattern p ) { return caseBinary ( p ) ; } } 

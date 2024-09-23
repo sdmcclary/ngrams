@@ -1,0 +1,1 @@
+public interface StoreEntry { int incrementAndGet ( ) ; boolean isExpired ( ) ; } 

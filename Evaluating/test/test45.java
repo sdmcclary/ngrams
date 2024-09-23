@@ -1,0 +1,1 @@
+public interface NameClass { boolean isEmpty ( ) ; boolean contains ( Name name ) ; boolean isAnyNameIncluded ( ) ; Set < String > getExcludedNamespaces ( ) ; Set < Name > getExcludedNames ( ) ; Set < Name > getIncludedNames ( ) ; Set < String > getIncludedNamespaces ( ) ; Set < String > getExcludedLocalNames ( String ns ) ; } 

@@ -1,0 +1,1 @@
+class TokenDatatype extends StringDatatype { public Object createValue ( String str , ValidationContext vc ) { return StringNormalizer . normalize ( str ) ; } } 

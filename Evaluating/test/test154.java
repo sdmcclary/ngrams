@@ -1,0 +1,1 @@
+public class RequiredElementsFunction extends RequiredElementsOrAttributesFunction { public Set < Name > caseElement ( ElementPattern p ) { return caseNamed ( p . getNameClass ( ) ) ; } public Set < Name > caseGroup ( GroupPattern p ) { Pattern p1 = p . getOperand1 ( ) ; if ( ! p1 . isNullable ( ) ) return p1 . apply ( this ) ; return p . getOperand2 ( ) . apply ( this ) ; } } 

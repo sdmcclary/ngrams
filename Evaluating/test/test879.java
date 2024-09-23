@@ -1,0 +1,1 @@
+public class A implements Executable { public void method ( ) { } } 

@@ -1,0 +1,1 @@
+public interface TargetNamespaceIdentifier { public String getTargetNamespace ( ) ; } 

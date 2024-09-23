@@ -1,0 +1,1 @@
+public final class Date extends AbstractDatetime { public static final Date THE_INSTANCE = new Date ( ) ; private static final Pattern THE_PATTERN = Pattern . compile ( "^([0-9]{4,})-([0-9]{2})-([0-9]{2})$" ) ; private Date ( ) { super ( ) ; } protected final Pattern getPattern ( ) { return THE_PATTERN ; } @ Override public String getName ( ) { return "date" ; } } 
