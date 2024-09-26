@@ -1,0 +1,1 @@
+public class Messages extends NLS { private static final String BUNDLE_NAME = "junit.extensions.eclipse.quick.mac.growl.internal.preferences.messages" ; public static String GrowlPreferencePage_description ; public static String GrowlPreferencePage_template_group ; static { NLS . initializeMessages ( BUNDLE_NAME , Messages . class ) ; } private Messages ( ) { } } 

@@ -1,0 +1,1 @@
+public interface RackInput { IRubyObject gets ( ThreadContext context ) ; IRubyObject read ( ThreadContext context , IRubyObject [ ] args ) ; IRubyObject each ( ThreadContext context , Block block ) ; IRubyObject rewind ( ThreadContext context ) ; void close ( ) ; } 

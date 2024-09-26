@@ -1,0 +1,1 @@
+public enum Preference { TEMPLATE ; public String getValue ( ) { IPreferenceStore store = GrowlActivator . getDefault ( ) . getPreferenceStore ( ) ; return store . getString ( name ( ) ) ; } public void setValue ( String value ) { IPreferenceStore store = GrowlActivator . getDefault ( ) . getPreferenceStore ( ) ; store . setValue ( name ( ) , value ) ; } } 

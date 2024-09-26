@@ -1,0 +1,1 @@
+public interface PlotAdditionListener { void plotWasAdded ( Point plot ) ; } 

@@ -1,0 +1,1 @@
+public interface RackErrors { IRubyObject puts ( ThreadContext context , IRubyObject arg ) ; IRubyObject write ( ThreadContext context , IRubyObject string ) ; IRubyObject flush ( ) ; IRubyObject close ( ) ; } 

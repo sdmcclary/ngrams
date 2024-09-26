@@ -1,0 +1,1 @@
+public interface GreenBarModel { void runTests ( ) ; int numberOfTests ( ) ; int numberOfFailures ( ) ; } 

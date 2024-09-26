@@ -1,0 +1,1 @@
+public interface TimeSource { long millis ( ) ; } 

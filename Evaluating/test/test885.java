@@ -1,0 +1,1 @@
+public class Prompt { public void say ( String message ) { } } 

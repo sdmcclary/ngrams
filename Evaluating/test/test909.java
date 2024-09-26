@@ -1,0 +1,1 @@
+public interface UserHome extends EJBLocalHome { public User findByPrimaryKey ( Integer id ) throws FinderException ; public User create ( String username , String password ) throws CreateException ; } 

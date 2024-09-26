@@ -1,0 +1,1 @@
+public interface Converter { String convert ( Reader from , ConverterOptions options ) throws InvalidFormatException , IOException ; } 

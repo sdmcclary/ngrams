@@ -1,0 +1,1 @@
+public abstract class BasePage extends WebPage { public BasePage ( ) { InjectorHolder . getInjector ( ) . inject ( this ) ; } } 

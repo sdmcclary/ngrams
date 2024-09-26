@@ -1,0 +1,1 @@
+public interface GreenBarPassiveView extends GreenBarView { public void setBarColor ( Color color ) ; } 

@@ -1,0 +1,1 @@
+@ Local public interface DiscountService { int getDiscountPercentage ( Account account ) ; } 

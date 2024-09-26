@@ -1,0 +1,1 @@
+public class PDEJUnitDebugAction extends JUnitLaunchAction { public PDEJUnitDebugAction ( ) throws CoreException { super ( ExtensionSupport . createJUnitWorkbenchShortcut ( ) , "debug" ) ; } } 
