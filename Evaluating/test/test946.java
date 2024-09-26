@@ -1,1 +1,0 @@
-public interface GreenBarView { public void addRunButtonListener ( RunButtonListener listener ) ; } 

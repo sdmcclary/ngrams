@@ -1,1 +1,0 @@
-public class PDEJUnitRunAction extends JUnitLaunchAction { public PDEJUnitRunAction ( ) throws CoreException { super ( ExtensionSupport . createJUnitWorkbenchShortcut ( ) , "run" ) ; } } 

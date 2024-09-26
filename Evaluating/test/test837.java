@@ -1,1 +1,0 @@
-public class JUnitDebugAction extends JUnitLaunchAction { public JUnitDebugAction ( ) throws CoreException { super ( ExtensionSupport . createJUnitLaunchShortcut ( ) , "debug" ) ; } } 

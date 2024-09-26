@@ -1,1 +1,0 @@
-public class Startup implements IStartup { public void earlyStartup ( ) { JUnitCore . addTestRunListener ( new TestNotificationListener ( ) ) ; } } 

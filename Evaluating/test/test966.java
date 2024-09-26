@@ -1,1 +1,0 @@
-public interface Segment { public String evaluate ( Map < String , String > variables ) ; } 

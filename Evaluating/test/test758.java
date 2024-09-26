@@ -1,1 +1,0 @@
-public interface RackEnvironment { InputStream getInput ( ) ; int getContentLength ( ) ; RackInput getRackInput ( ) ; void setRackInput ( RackInput input ) ; RubyHash toRuby ( ) ; } 

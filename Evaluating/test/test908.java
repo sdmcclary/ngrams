@@ -1,1 +1,0 @@
-public interface User extends EJBLocalObject { } 

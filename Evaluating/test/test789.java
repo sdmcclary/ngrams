@@ -1,1 +1,0 @@
-public class PreferenceInitializer extends AbstractPreferenceInitializer { public void initializeDefaultPreferences ( ) { IPreferenceStore store = GrowlActivator . getDefault ( ) . getPreferenceStore ( ) ; store . setDefault ( TEMPLATE . name ( ) , "${name} passed:${ok_counts} failure:${fail_counts} Total:${total_counts}" ) ; } } 

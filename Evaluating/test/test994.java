@@ -1,1 +1,0 @@
-public interface DocumentProcessor { public Document processDocument ( Document doc ) throws DocumentProcessorException ; } 

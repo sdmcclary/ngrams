@@ -1,1 +1,0 @@
-public interface HttpResponseWriter { void write ( ChannelHandlerContext context , Request request , Response response ) ; } 

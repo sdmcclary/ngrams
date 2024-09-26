@@ -1,1 +1,0 @@
-public enum QuickJUnitDocTagConstants { TestContext ; public String toAnnotation ( ) { return "@" + name ( ) ; } } 

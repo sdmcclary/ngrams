@@ -1,1 +1,0 @@
-public class DocumentCleaner implements DocumentProcessor { public Document processDocument ( Document doc ) throws DocumentProcessorException { if ( null == doc . getItems ( ) ) { doc . setItems ( new ArrayList < Item > ( ) ) ; } doc . getItems ( ) . clear ( ) ; return doc ; } } 

@@ -1,1 +1,0 @@
-public class HelpSupport { public static void setHelp ( final Shell control , final String contextId ) { final IWorkbench workbench = PlatformUI . getWorkbench ( ) ; workbench . getHelpSystem ( ) . setHelp ( control , contextId ) ; } } 

@@ -1,1 +1,0 @@
-public interface SearchService { String [ ] search ( String [ ] keywords ) ; } 

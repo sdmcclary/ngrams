@@ -1,1 +1,0 @@
-public class Messages extends NLS { private static final String BUNDLE_NAME = "junit.extensions.eclipse.quick.mock.internal.wizard.messages" ; public static String MockitoPage_AddedLabel ; public static String MockitoPage_AddMockitoLibrary ; static { NLS . initializeMessages ( BUNDLE_NAME , Messages . class ) ; } private Messages ( ) { } } 

@@ -1,1 +1,0 @@
-public class MyWicketApp extends WebApplication { public MyWicketApp ( ) { } @ Override public Class < ? extends Page > getHomePage ( ) { return MyHomePage . class ; } } 

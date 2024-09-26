@@ -1,1 +1,0 @@
-public class DocumentProcessorException extends Exception { public DocumentProcessorException ( ) { super ( ) ; } public DocumentProcessorException ( String message ) { super ( message ) ; } public DocumentProcessorException ( String message , Throwable cause ) { super ( message , cause ) ; } public DocumentProcessorException ( Throwable cause ) { super ( cause ) ; } } 

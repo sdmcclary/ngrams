@@ -1,1 +1,0 @@
-public class Operation { public int index ; public double left ; public double right ; public char operator ; } 

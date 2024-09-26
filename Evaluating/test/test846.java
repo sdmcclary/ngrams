@@ -1,1 +1,0 @@
-public class ProcessActivator extends AbstractUIPlugin { private static ProcessActivator plugin ; public ProcessActivator ( ) { ProcessActivator . plugin = this ; } public static ProcessActivator getDefault ( ) { return ProcessActivator . plugin ; } } 

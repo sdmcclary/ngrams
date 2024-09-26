@@ -1,1 +1,0 @@
-public interface GreenBarObservingView extends GreenBarView { void update ( GreenBarModel model ) ; } 

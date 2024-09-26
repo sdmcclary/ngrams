@@ -1,1 +1,0 @@
-public interface RackProxy { Response process ( Request request ) ; Ruby getRuntime ( ) ; } 

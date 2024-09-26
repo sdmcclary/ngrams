@@ -1,1 +1,0 @@
-public class MyHomePage extends WebPage { public MyHomePage ( ) { add ( new Label ( "welcomeMessage" , "Welcome!" ) ) ; add ( new PageLink ( "linkToLoginPage" , LoginPage . class ) ) ; } } 

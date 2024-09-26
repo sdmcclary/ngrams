@@ -1,1 +1,0 @@
-public class JUnitRunAction extends JUnitLaunchAction { public JUnitRunAction ( ) throws CoreException { super ( ExtensionSupport . createJUnitLaunchShortcut ( ) , "run" ) ; } } 

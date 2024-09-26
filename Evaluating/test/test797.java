@@ -1,1 +1,0 @@
-public class QuickJUnitJavaDocExtensionException extends RuntimeException { public QuickJUnitJavaDocExtensionException ( String message ) { super ( message ) ; } private static final long serialVersionUID = 1L ; } 
